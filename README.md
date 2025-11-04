@@ -120,7 +120,7 @@ pip install -r requirements.txt
 根据你使用的命令行工具，在 `~/.bashrc` 或 `~/.zshrc` 中配置 `DEEPSEEK_API_KEY` 环境变量：
 
 ```shell
-export DEEPSEEK_API_KEY="xxxx"
+export DEEPSEEK_API_KEY="sk-d496b702417d4df89469ed2e36c85207"
 ```
 
 ### 安装和配置 Jupyter Lab
@@ -147,7 +147,7 @@ c.ServerApp.ip = '*'
 
 使用 nohup 后台启动 Jupyter Lab
 ```shell
-$ nohup jupyter lab --port=8000 --NotebookApp.token='替换为你的密码' --notebook-dir=./ &
+$ nohup jupyter lab --port=8000 --NotebookApp.token='1234' --notebook-dir=./ &
 ```
 
 
